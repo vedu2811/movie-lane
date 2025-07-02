@@ -1,4 +1,6 @@
 import {useEffect} from 'react';
+import './App.css';
+import searchIcon from './search.svg';
 
 // Omdb API Key
 // fcea5672

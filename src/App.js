@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './App.css';
 
 // const Person =(props)=>{
@@ -11,11 +12,15 @@ import './App.css';
 // }
 
 const App=()=>{
+  const [] = useState();
   // const name=null;
   // const isNameShowing=false;
   // const isNameShowing=false;
   return (
     <div className="App">
+      <button>-</button>
+      <h1>0</h1>
+      <button>+</button>
       {/* <Person name="Vedant" lastName="Jalan" age={21}/>
       <Person name="John" lastName="Doe" age={30}/> */}
       {/* <h1>Hello {isNameShowing ? name : "Buddy"}!</h1>

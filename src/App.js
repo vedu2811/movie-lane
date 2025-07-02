@@ -19,7 +19,17 @@ const App = () => {
         searchMovies('Harry Potter');
     })
     return(
-        <h1>App</h1>
+        <div className="app">
+            <h1>MovieLane</h1>
+
+            <div className="search">
+                <input 
+                    placeholder="Search for movies"
+                    value="Harry Potter"
+                    onChange={() => {}}
+                />
+            </div>
+        </div>
     );
 }
 

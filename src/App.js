@@ -1,7 +1,7 @@
 import './App.css';
 
 const App=()=>{
-  const name="Vedant";
+  const name=null;
   // const isNameShowing=false;
   const isNameShowing=false;
   return (

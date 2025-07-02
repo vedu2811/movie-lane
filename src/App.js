@@ -15,7 +15,7 @@ const App=()=>{
   const [counter,setCounter] = useState(0);
 
   useEffect(()=>{
-    counter=100;
+    setCounter(100);
   })
   // const name=null;
   // const isNameShowing=false;

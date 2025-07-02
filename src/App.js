@@ -12,14 +12,14 @@ import './App.css';
 // }
 
 const App=()=>{
-  const [] = useState();
+  const [counter,setCounter] = useState(0);
   // const name=null;
   // const isNameShowing=false;
   // const isNameShowing=false;
   return (
     <div className="App">
-      <button>-</button>
-      <h1>0</h1>
+      <button onClick={()=>alert('Click')}>-</button>
+      <h1>{counter}</h1>
       <button>+</button>
       {/* <Person name="Vedant" lastName="Jalan" age={21}/>
       <Person name="John" lastName="Doe" age={30}/> */}

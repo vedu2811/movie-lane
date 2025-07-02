@@ -18,7 +18,7 @@ const App=()=>{
   // const isNameShowing=false;
   return (
     <div className="App">
-      <button onClick={()=>alert('Click')}>-</button>
+      <button onClick={()=>setCounter((prevCount)=>prevCount-1)}>-</button>
       <h1>{counter}</h1>
       <button>+</button>
       {/* <Person name="Vedant" lastName="Jalan" age={21}/>

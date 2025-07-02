@@ -20,7 +20,7 @@ const App=()=>{
     <div className="App">
       <button onClick={()=>setCounter((prevCount)=>prevCount-1)}>-</button>
       <h1>{counter}</h1>
-      <button>+</button>
+      <button onClick={() => setCounter((nextCount)=>nextCount+1)}>+</button>
       {/* <Person name="Vedant" lastName="Jalan" age={21}/>
       <Person name="John" lastName="Doe" age={30}/> */}
       {/* <h1>Hello {isNameShowing ? name : "Buddy"}!</h1>

@@ -28,6 +28,11 @@ const App = () => {
                     value="Harry Potter"
                     onChange={() => {}}
                 />
+                <img 
+                    src={searchIcon}
+                    alt="search"
+                    onClick={() => {}}
+                />
             </div>
         </div>
     );

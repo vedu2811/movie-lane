@@ -1,9 +1,10 @@
 import './App.css';
 
 const App=()=>{
+  const name="Vedant"
   return (
     <div className="App">
-      <h1>Hello React!</h1>
+      <h1>Hello {name}!</h1>
     </div>
   );
 }

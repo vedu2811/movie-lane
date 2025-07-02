@@ -1,10 +1,12 @@
 import './App.css';
 
 const App=()=>{
-  const name="Vedant"
+  const name="Vedant";
+  // const isNameShowing=false;
+  const isNameShowing=true;
   return (
     <div className="App">
-      <h1>Hello {name}!</h1>
+      <h1>Hello {isNameShowing ? name : "Buddy"}!</h1>
     </div>
   );
 }

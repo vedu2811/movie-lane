@@ -16,7 +16,7 @@ const App=()=>{
 
   useEffect(()=>{
     setCounter(100);
-  })
+  },[]);
   // const name=null;
   // const isNameShowing=false;
   // const isNameShowing=false;

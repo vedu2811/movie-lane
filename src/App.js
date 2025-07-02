@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './App.css';
 
 // const Person =(props)=>{
@@ -13,6 +13,10 @@ import './App.css';
 
 const App=()=>{
   const [counter,setCounter] = useState(0);
+
+  useEffect(()=>{
+    counter=100;
+  })
   // const name=null;
   // const isNameShowing=false;
   // const isNameShowing=false;

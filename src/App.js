@@ -3,10 +3,20 @@ import './App.css';
 const App=()=>{
   const name="Vedant";
   // const isNameShowing=false;
-  const isNameShowing=true;
+  const isNameShowing=false;
   return (
     <div className="App">
       <h1>Hello {isNameShowing ? name : "Buddy"}!</h1>
+      {name ? (
+        <>
+          test
+        </>
+      ): (
+        <>
+          <h1>Test</h1>
+          <h2>There is no name</h2>
+        </>
+      )}
     </div>
   );
 }

@@ -7,6 +7,14 @@ import searchIcon from './search.svg';
 
 const API_URL = 'https://www.omdbapi.com/?apikey=fcea5672';
 
+const movie1={
+    "Title": "Harry Potter and the Half-Blood Prince",
+    "Year": "2009",
+    "imdbID": "tt0417741",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNzU3NDg4NTAyNV5BMl5BanBnXkFtZTcwOTg2ODg1Mg@@._V1_SX300.jpg"
+}
+
 const App = () => {
     const searchMovies =async(title) => {
         const response = await fetch(`${API_URL}&s=${title}`);
@@ -33,6 +41,10 @@ const App = () => {
                     alt="search"
                     onClick={() => {}}
                 />
+            </div>
+
+            <div className="container">
+
             </div>
         </div>
     );

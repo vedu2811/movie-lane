@@ -49,7 +49,7 @@ const App = () => {
                         <p>{movie1.Year}</p>
                     </div>
                     <div>
-                        <img src={movie1.poster} alt={movie1.title}/>
+                        <img src={movie1.Poster !== 'N/A' ? movie1.poster : 'https://via.placeholder.com/400'} alt={movie1.title}/>
                     </div>
                 </div>
             </div>

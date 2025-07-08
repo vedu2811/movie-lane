@@ -45,9 +45,19 @@ const App = () => {
                 />
             </div>
 
-            <div className="container">
-                <MovieCard movie1={movies[0]}/>
-            </div>
+            {
+                movies?.length>0
+                    ? (
+                    <div className="container">
+                        <MovieCard movie1={movies[0]}/>
+                    </div>
+                    ) : (
+                    <div className="empty">
+                        <h2>NO MOVIES FOUND</h2>
+                    </div>
+                    )
+            }
+
         </div>
     );
 }

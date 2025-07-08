@@ -29,8 +29,8 @@ const App = () => {
     }
 
     useEffect(() => {
-        searchMovies('Harry Potter');
-    })
+        searchMovies('Spiderman');
+    },[])
     return(
         <div className="app">
             <h1>MovieLane</h1>
@@ -44,7 +44,7 @@ const App = () => {
                 <img 
                     src={searchIcon}
                     alt="search"
-                    onClick={() => {}}
+                    onClick={() => searchMovies(searchTerm)}
                 />
             </div>
 

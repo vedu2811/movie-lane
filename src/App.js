@@ -44,7 +44,14 @@ const App = () => {
             </div>
 
             <div className="container">
-
+                <div className="movie">
+                    <div>
+                        <p>{movie1.Year}</p>
+                    </div>
+                    <div>
+                        <img src={movie1.poster} alt={movie1.title}/>
+                    </div>
+                </div>
             </div>
         </div>
     );

@@ -28,6 +28,7 @@ const App = () => {
         setMovies(data.Search);
     }
 
+    // Adding empty dependency array is very important
     useEffect(() => {
         searchMovies('Spiderman');
     },[])
